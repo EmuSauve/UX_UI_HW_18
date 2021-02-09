@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+Body {
+    font-family: 'Lato', sans-serif;
+    color: #282828;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 43px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.contentMaxWidth {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header .contentMaxWidth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.headerNav ul {
+    display: flex;
+    width: 375px;
+    justify-content: space-between;
+}
+
+/* Navigation */
+.headerNav {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.navLink:link {
+    text-decoration: none;
+    color: #282828;
+}
+
+.navLink:visited {
+    text-decoration: none;
+    color: #282828;
+}
+
+.navLink:hover {
+    color: #EFBA00;
+}
+
+.navLink:active {
+    color: #EFBA00;
+}
+
+#onThePage {
+    color: #888888;
+}
+
+/* Hero Space */
+.heroSpace .contentMaxWidth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heroTextBox {
+    width: 70%;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+#heroTitle {
+    font-size: 80px;
+    margin-bottom: 15px;
+}
+
+.coloredText {
+    color: #EFBA00;
+}
+
+.heroParagraph {
+    margin-bottom: 30px;
+    line-height: 1.5;
+    font-size: 22px;
+}
+
+.highlightedText {
+    background: linear-gradient(transparent 60%, #FFD935 0%);
+}
+
+.heroTextBox a {
+    color: #282828
+}
+
+.heroTextBox a:hover {
+    color: #EFBA00;
+}
+
+.heroImageBox {
+    text-align: right;
+    padding-top: 45px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.heroImageBox img {
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    background-color: #282828;
+    color: white;
+}
+
+footer .contentMaxWidth {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.contentMaxWidth h1 {
+    margin-bottom: 35px;
+}
+
+.footerNav {
+    margin-bottom: 100px;
+} 
+
+.footerNav a{
+    margin: 0 30px;
+}
+
+.copyRight {
+    font-size: 16px;
+    color: #CDCDCD;
+    font-weight: 100;
+}
